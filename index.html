@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./media-query.css" />
+    <title>Dragon Star Pavers and Bricks</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="p-3 m-0 border-0 bd-example m-0 border-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="#"
+            ><img class="dragon-logo" src="./images/logo.jpg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Media
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">The Process</a></li>
+                  <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">The Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <div id="hero-carousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#hero-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img
+                src="./images/whatsapp/36.jpg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+              <div class="carousel-caption top-0 mt-5">
+                <h1
+                  class="mt-5 display-1 fw-bolder fs-1 text-capitalize company-name"
+                >
+                  Dragon Star Pavers & Bricks (PVT) Ltd
+                </h1>
+                <p class="mt-5 fs-4 company-motto">
+                  Building The Future On Solid Foundation
+                </p>
+                <div class="intro-buttons-div">
+                  <a href="#"
+                    ><button class="intro-buttons">Get a Quote</button></a
+                  >
+                  <a href="#"
+                    ><button class="intro-buttons">Our Products</button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img
+                src="./images/whatsapp/12.jpg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+              <div class="carousel-caption top-0 mt-5">
+                <div class="intro-buttons-div">
+                  <a href="#"
+                    ><button class="second-buttons">Learn More</button></a
+                  >
+                  <a href="#"
+                    ><button class="second-buttons">Our Products</button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img
+                src="./images/whatsapp/2.jpg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+              <div class="carousel-caption top-0 mt-5">
+                <p class="our-pride">
+                  We pride ourselves in being one of the most trusted brands for
+                  quality, durable and high-strength pavers and bricks in
+                  Zimbabwe.
+                </p>
+                <div class="intro-buttons-div">
+                  <a href="#"
+                    ><button class="third-buttons">Contact Us</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#hero-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="why-choose-us-section">
+        <div class="why-choose-us-div">
+          <p class="why-choose-us-heading">Why choose us</p>
+          <p>
+            We pride ourselves in being one of the most trusted brands for
+            quality, durable and high-strength cement bricks and pavers in
+            Zimbabwe. With unparalleled expertise in efficient production
+            methods complemented by our state-of-the-art equipment, we guarantee
+            our customers premium quality products that are strong, durable,
+            appealing and affordable. We offer client specific options to meet
+            your needs and wants.
+          </p>
+        </div>
+        <div class="our-vision-div">
+          <div>
+            <p class="our-vision-heading">Our Vision</p>
+            <p>
+              To become the mainstream manufacturer of bricks and related
+              building products
+            </p>
+          </div>
+          <div>
+            <p class="our-vision-heading">Our Mission</p>
+            <p>
+              To become the mainstream manufacturer of bricks and related
+              building products
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="our-products-section">
+        <p class="our-products-heading">Our Products</p>
+        <div class="products">
+          <div>
+            <a href="#">
+              <img src="./images/whatsapp/23.jpg" alt="" />
+              <p class="product-name">Pavers</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="./images/whatsapp/34.jpg" alt="" />
+              <p class="product-name">Curbs</p>
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              <img src="./images/whatsapp/26.jpg" alt="" />
+              <p class="product-name">Bricks</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="short-video-section">
+        <div>
+          <video controls src="./images/whatsapp/video1.mp4"></video>
+        </div>
+      </section>
+      <section class="faq-section">
+        <div>
+          <p class="faq-heading">FAQs</p>
+          <p class="faq-paragraph">
+            If you have any questions please check below or Get in touch with us
+            for answers
+          </p>
+        </div>
+        <div class="container">
+          <div
+            class="accordion mx-auto w-75 accordion-flush faq-questions"
+            id="accordionFlushExample"
+            mx-auto
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed questions"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What are the standard dimensions for your bricks?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body answer">
+                  Our bricks are (L) 230mm x (W) 110mm x (H) 70mm
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed questions"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Do you deliver your bricks to customers across the country?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body answer">
+                  Yes, we can delivery your bricks to any destination in
+                  Zimbabwe. However, road accessibility is taken into
+                  consideration to ensure that bricks are delivered in the most
+                  efficient manner.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed questions"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Can I bring my own transport?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body answer">Yes</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed questions"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Can I buy on Account or Lay bye?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body answer">Yes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <!-- Grid column -->
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-home me-3"></i>Plot No 5 Dzivarasekwa
+                  Extension, Reinham Park, Harare
+                </p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 263 78 9072 419</p>
+                <p><i class="fas fa-print me-3"></i> + 263 71 3897 973</p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" class="text-reset">Pavers</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Bricks</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Curbs</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" class="text-reset">Home</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Products</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Media</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">The Company</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Conat Us</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Copyright -->
+        <div
+          class="text-center p-4 copyright"
+          style="background-color: rgb(2, 89, 113)"
+        >
+          <a class="text-reset fw-bold"
+            >Copyright © 2024 Dragon Star Pavers & Bricks</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+a {
+    text-decoration: none;
+}
+
+
+
+.nav-item{
+    margin: 0 30px 0 30px;
+}
+
+.nav-link{
+    color: rgb(2, 89, 113);
+}
+
+.c-item{
+    height: 600px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+
+
+.intro-buttons-div{
+    position: absolute;
+}
+
+.intro-buttons{
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 89, 113);
+    margin: 5px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.second-buttons{
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 89, 113);
+    margin: 5px;
+    position: relative;
+    top: 265px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.third-buttons{
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 89, 113);
+    margin: 5px;
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+}
+
+.intro-buttons:hover{
+    background-color: rgb(2, 58, 73);
+}
+
+.our-pride{
+    margin-top: 260px;
+    font-size: 19px;
+}
+
+.why-choose-us-section{
+    margin-top: 30px;
+    padding: 30px 100px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.why-choose-us-div{
+    width: 65%;
+}
+
+.why-choose-us-heading{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.our-vision-div{
+    background-color: rgb(2, 93, 118);
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+}
+
+.our-vision-heading{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.short-video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+.our-products-section{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.our-products-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.products img{
+    width: 100%;
+    height: auto;
+}
+
+.product-name{
+    text-align: center;
+    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(2, 89, 113);
+    padding: 8px;
+}
+
+
+.faq-heading{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(2, 89, 113);
+}
+
+.faq-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    font-size: 18px;
+    color: rgb(2, 89, 113);
+    padding: 5px 20px;
+}
+
+.questions{
+    background-color: rgb(2, 89, 113);
+    color: white;
+}
+
+.answer{
+    font-weight: bold;
+}
+
+.footer-company-name{
+    color: rgb(2, 89, 113);
+}
+
+.copyright{
+    color: white;
+}
+

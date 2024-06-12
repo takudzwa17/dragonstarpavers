@@ -1,0 +1,110 @@
+@media (max-width: 600px) {
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px;
+        display: flex;
+        column-gap: 40px;
+    }
+    
+    .why-choose-us-div{
+        width: 100%;
+    }
+    
+    .why-choose-us-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 749px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px 50px;
+        display: flex;
+        column-gap: 40px;
+    }
+    
+    .why-choose-us-div{
+        width: 100%;
+    }
+    
+    .why-choose-us-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 750px) and (max-width: 839px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px 80px;
+        display: flex;
+        column-gap: 40px;
+    }
+    
+    .why-choose-us-div{
+        width: 100%;
+    }
+    
+    .why-choose-us-section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 840px) and (max-width: 900px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px;
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .why-choose-us-div{
+        width: 100%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 999px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px 50px;
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .why-choose-us-div{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1079px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px 50px;
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .why-choose-us-div{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1080px) and (max-width: 1179px){
+    .why-choose-us-section{
+        margin-top: 10px;
+        padding: 30px 50px;
+        display: flex;
+        column-gap: 40px;
+    }
+
+    .why-choose-us-div{
+        width: 100%;
+    }
+}
