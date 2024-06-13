@@ -16,6 +16,10 @@ a {
     height: 600px;
 }
 
+.r-item{
+    height: 500px;
+}
+
 .c-img{
     height: 100%;
     object-fit: cover;
@@ -80,7 +84,7 @@ a {
 }
 
 .why-choose-us-div{
-    width: 65%;
+    width: 100%;
 }
 
 .why-choose-us-heading{
@@ -99,7 +103,11 @@ a {
 .our-vision-heading{
     font-weight: bold;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 19px;
+}
+
+.our-vision-paragraph{
+    margin-top: -15px;
 }
 
 .short-video-section{
@@ -177,11 +185,68 @@ video {
     font-weight: bold;
 }
 
-.footer-company-name{
+.reviews-section{
+    margin-top: 40px;
+    
+}
+
+
+.review-heading{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
     color: rgb(2, 89, 113);
+}
+
+.review-text{
+    color: black;
+}
+
+.profile-photo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.review-message{
+    max-width: 550px;
+    margin-left: 210px;
 }
 
 .copyright{
     color: white;
+}
+
+.get-connected-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
 }
 
