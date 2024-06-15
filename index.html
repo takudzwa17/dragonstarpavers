@@ -45,22 +45,36 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Products
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Pavers</a></li>
-                  <li><a class="dropdown-item" href="#">Curbs</a></li>
-                  <li><a class="dropdown-item" href="#">Bricks</a></li>
-                </ul>
-              </li>
+              <a href="#">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./products/pavers.html"
+                        >Pavers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./products/bricks.html"
+                        >Cement Bricks</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./products/curbs.html"
+                        >Curbs</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </a>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -132,7 +146,7 @@
                   <a href="#"
                     ><button class="intro-buttons">Get a Quote</button></a
                   >
-                  <a href="#"
+                  <a href="./products.html"
                     ><button class="intro-buttons">Our Products</button></a
                   >
                 </div>
@@ -149,7 +163,7 @@
                   <a href="#"
                     ><button class="second-buttons">Learn More</button></a
                   >
-                  <a href="#"
+                  <a href="./products.html"
                     ><button class="second-buttons">Our Products</button></a
                   >
                 </div>
@@ -247,7 +261,7 @@
           </div>
           <div>
             <a href="#">
-              <img src="./images/whatsapp/26.jpg" alt="" />
+              <img src="./images/whatsapp/27.jpg" alt="" />
               <p class="product-name">Cement Bricks</p>
             </a>
           </div>
@@ -262,6 +276,99 @@
       <section class="short-video-section">
         <div>
           <video controls src="./images/whatsapp/video1.mp4"></video>
+        </div>
+      </section>
+      <section class="reviews-section">
+        <p class="review-heading">Testimonials</p>
+        <div id="carouselExampleCaptions" class="carousel slide reviews-main">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item r-item active">
+              <div class="carousel-caption review-text">
+                <img class="profile-photo" src="./images/user.png" alt="" />
+                <h5>Clarence Masunda</h5>
+                <h6>Homeowner</h6>
+                <p class="review-message">
+                  Dragon Star Pavers and Bricks exceeded our expectations! Their
+                  products are of the highest quality, and their team provided
+                  excellent service throughout our project. We highly recommend
+                  them.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item r-item">
+              <div class="carousel-caption review-text">
+                <img class="profile-photo" src="./images/user.png" alt="" />
+                <h5>Sarah Johnson</h5>
+                <h6>Contractor</h6>
+                <p class="review-message">
+                  Working with Dragon Star Pavers and Bricks was a breeze. Their
+                  knowledgeable stuff guided us through the selection process,
+                  and the end result was exactly what we envisioned. Thank you
+                  for a job well done!
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item r-item">
+              <div class="carousel-caption review-text">
+                <img class="profile-photo" src="./images/user.png" alt="" />
+                <h5>David Kativu</h5>
+                <h6>Business Owner</h6>
+                <p class="review-message">
+                  I've been a loyal customer of Dragon Star Pavers and Bricks
+                  for years, and they never disappoint. Their products are top
+                  notch, their prices are competitive, and their customer
+                  service is outstanding. I wouldn't go anywhere else.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
       <section class="faq-section">
@@ -377,101 +484,7 @@
           </div>
         </div>
       </section>
-      <section class="reviews-section">
-        <p class="review-heading">Testimonials</p>
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleCaptions"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-
-          <div class="carousel-inner">
-            <div class="carousel-item r-item active">
-              <div class="carousel-caption review-text">
-                <img class="profile-photo" src="./images/user.png" alt="" />
-                <h5>Clarence Masunda</h5>
-                <h6>Homeowner</h6>
-                <p class="review-message">
-                  Dragon Star Pavers and Bricks exceeded our expectations! Their
-                  products are of the highest quality, and their team provided
-                  excellent service throughout our project. We highly recommend
-                  them.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item r-item">
-              <div class="carousel-caption review-text">
-                <img class="profile-photo" src="./images/user.png" alt="" />
-                <h5>Sarah Johnson</h5>
-                <h6>Contractor</h6>
-                <p class="review-message">
-                  Working with Dragon Star Pavers and Bricks was a breeze. Their
-                  knowledgeable stuff guided us through the selection process,
-                  and the end result was exactly what we envisioned. Thank you
-                  for a job well done!
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item r-item">
-              <div class="carousel-caption review-text">
-                <img class="profile-photo" src="./images/user.png" alt="" />
-                <h5>David Kativu</h5>
-                <h6>Business Owner</h6>
-                <p class="review-message">
-                  I've been a loyal customer of Dragon Star Pavers and Bricks
-                  for years, and they never disappoint. Their products are top
-                  notch, their prices are competitive, and their customer
-                  service is outstanding. I wouldn't go anywhere else.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev"
-          >
-            <span
-              class="carousel-control-prev-icon prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next"
-          >
-            <span
-              class="carousel-control-next-icon next-icon"
-              aria-hidden="true"
-            ></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
     </main>
-    <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
       <!-- Section: Social media -->
       <section
@@ -487,7 +500,7 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
-              <h6 class="text-uppercase fw-bold mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 footer-headings">
                 Dragon Star Pavers and Bricks
               </h6>
               <p>
@@ -502,7 +515,9 @@
             <!-- Grid column -->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <h6 class="text-uppercase fw-bold mb-4 footer-headings">
+                Products
+              </h6>
               <p>
                 <a href="#!" class="text-reset">Pavers</a>
               </p>
@@ -518,12 +533,14 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <h6 class="text-uppercase fw-bold mb-4 footer-headings">
+                Useful links
+              </h6>
               <p>
                 <a href="#!" class="text-reset">Home</a>
               </p>
               <p>
-                <a href="#!" class="text-reset">Products</a>
+                <a href="./products.html" class="text-reset">Products</a>
               </p>
               <p>
                 <a href="#!" class="text-reset">Media</a>
@@ -540,7 +557,9 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <h6 class="text-uppercase fw-bold mb-4 footer-headings">
+                Contact
+              </h6>
               <p>
                 <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
                 &#160; Plot No. 5, Kirkman Road, Harare
@@ -592,6 +611,5 @@
 
       <!-- Copyright -->
     </footer>
-    <!-- Footer -->
   </body>
 </html>

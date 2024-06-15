@@ -201,6 +201,12 @@ video {
     color: rgb(2, 89, 113);
 }
 
+.reviews-main{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 0 40px;
+}
+
 .review-text{
     color: black;
 }
@@ -233,7 +239,6 @@ video {
   height: 100px;
   width: 100px;
   background-size: 100%, 100%;
-  
   background-image: none;
 }
 
@@ -248,5 +253,10 @@ video {
   content: '<';
   font-size: 55px;
   color: black;
+}
+
+
+.footer-headings{
+    color: rgb(2, 89, 113);
 }
 
