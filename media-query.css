@@ -14,10 +14,44 @@
         display: flex;
         flex-direction: column;
     }
+    
+
+    .our-vision-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
 
     .review-message{
         max-width: 550px;
         margin-left: 0;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 30px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
     }
 }
 
@@ -39,14 +73,52 @@
         flex-direction: column;
     }
 
+    .why-choose-us-section{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .review-message{
         max-width: 550px;
         margin-left: 0;
+    }
+
+    .our-vision-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 30px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
     }
 }
 
 
 @media (min-width: 750px) and (max-width: 839px){
+
     .why-choose-us-section{
         margin-top: 10px;
         padding: 30px 80px;
@@ -67,6 +139,38 @@
         max-width: 550px;
         margin-left: 0;
     }
+
+    .our-vision-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 30px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -86,6 +190,46 @@
         max-width: 550px;
         margin-left: 0;
     }
+
+    .our-vision-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
+
+    .why-choose-us-section-about-us img{
+        margin-top: 80px;
+    }
+
+    .why-choose-us-div{
+        width: 150%;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 30px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
+    }
 }
 
 @media (min-width: 901px) and (max-width: 999px){
@@ -103,6 +247,54 @@
     .review-message{
         max-width: 550px;
         margin-left: 40px;
+    }
+
+    .our-vision-section{
+        display: flex;
+        padding: 30px 50px;
+        display: flex;
+    }
+    
+    .our-vision-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
+
+    .why-choose-us-section-about-us img{
+        margin-top: 35px;
+    }
+
+    .why-choose-us-div{
+        width: 150%;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 20px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
     }
 }
 
@@ -122,6 +314,54 @@
     .review-message{
         max-width: 550px;
         margin-left: 70px;
+    }
+
+    .our-vision-section{
+        display: flex;
+        padding: 30px 50px;
+        display: flex;
+    }
+    
+    .our-vision-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .our-vision-heading-about-us{
+        margin-top: 0px;
+    }
+
+    .why-choose-us-section-about-us img{
+        margin-top: 35px;
+    }
+
+    .why-choose-us-div{
+        width: 150%;
+    }
+
+    .meet-the-team-section{
+        padding: 50px 20px;
+    }
+
+    .meet-the-team-heading{
+        font-weight: bold;
+        font-size: 26px;
+        color: rgb(2, 89, 113);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .team-member-div{
+        margin-bottom: 20px;
     }
 }
 
