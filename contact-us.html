@@ -18,8 +18,10 @@
     />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./media-query.css" />
+    <link rel="stylesheet" href="./company.css" />
     <title>Dragon Star Pavers and Bricks</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <header class="p-3 m-0 border-0 bd-example m-0 border-0">
@@ -93,10 +95,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">The Company</a>
+                <a class="nav-link" href="./the-company.html">The Company</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -104,80 +106,45 @@
       </nav>
     </header>
     <main>
-      <section class="why-choose-us-section why-choose-us-section-about-us">
-        <div class="why-choose-us-div">
-          <p class="why-choose-us-heading">About Us</p>
-          <p>
-            Dragon Star Pavers and Bricks is a leading supplier of high quality
-            paving and brick products in Harare, Zimbabwe. Established on May
-            10, 2023, our company is committed to providing top-notch products
-            at competitive prices. <br />
-            <br />
-            With a wide range of offerings, including driveway and brick
-            supplies, cement bricks, and various types of pavers, we cater to
-            both residential and commercial customers. Led by a dedicated team
-            of professionals, Dragon Star Pavers and Bricks is your trusted
-            partner for all your paving and brick needs.
-          </p>
-        </div>
-        <div>
-          <img src="./images/whatsapp/19.jpg" alt="" />
-        </div>
-      </section>
-      <section class="our-vision-section">
-        <div>
-          <img src="./images/whatsapp/10.jpg" alt="" />
-        </div>
-        <div class="our-vision-div">
-          <div>
-            <p class="our-vision-heading-about-us">Our Mission</p>
-            <p class="our-vision-paragraph-about-us">
-              To provide top-quality paving and brick products while delivering
-              exceptional service and value to our customers.
-            </p>
+      <div class="contact-us-div">
+        <div class="contact-form">
+          <h1>Contact Us</h1>
+          <div class="form-group">
+            <label for="">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
           </div>
-          <div class="our-mission-div">
-            <p class="our-mission-heading">Our Vision</p>
-            <p>
-              To be the leading provider of paving and brick solutions.
-              Recognized by our commitment to quality, innovation and customer
-              satisfaction.
-            </p>
+          <div class="form-group">
+            <label for="">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="johndoe@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="">Phone Number</label>
+            <input
+              type="number"
+              id="phone"
+              placeholder="Phone Number (+263)"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="">Subject</label>
+            <input type="text" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <label for="">Message</label>
+            <textarea id="message" placeholder="Message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button onclick="sendMessage();">Send Message</button>
           </div>
         </div>
-      </section>
-      <section class="our-values-section">
-        <p class="our-values-heading">Our Values</p>
-        <p class="our-values-paragraph">
-          Integrity, Excellence, Innovation, Customer Focus, Community
-          Engagement, Quality
-        </p>
-      </section>
-      <section class="meet-the-team-section">
-        <p class="meet-the-team-heading">Our Management Team</p>
-        <div class="the-team-div">
-          <div class="team-member-div">
-            <img class="team-member-image" src="./images/user.png" alt="" />
-            <p class="team-member-name">Jiang Jian Yong</p>
-            <p class="team-member-role">Founder/CEO</p>
-          </div>
-          <div class="team-member-div">
-            <img class="team-member-image" src="./images/user.png" alt="" />
-            <p class="team-member-name">Zhao Gong Rong</p>
-            <p class="team-member-role">Director</p>
-          </div>
-          <div class="team-member-div">
-            <img class="team-member-image" src="./images/user.png" alt="" />
-            <p class="team-member-name">Zhao Weiqiang</p>
-            <p class="team-member-role">Director</p>
-          </div>
-          <div class="team-member-div">
-            <img class="team-member-image" src="./images/user.png" alt="" />
-            <p class="team-member-name">Revai Tanaka Makwanya</p>
-            <p class="team-member-role">Managing Director</p>
-          </div>
-        </div>
-      </section>
+      </div>
+      <div class="contatc-details"></div>
     </main>
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
       <!-- Section: Social media -->
@@ -305,5 +272,31 @@
 
       <!-- Copyright -->
     </footer>
+    <script>
+      function sendMessage() {
+        (function () {
+          emailjs.init("lH7SIN-s11Lqb14LU"); // Account Public Key
+        })();
+
+        var serviceID = "service_yxg170j"; // Email Service ID
+        var templateID = "template_sa5hvmr"; // Email Template ID
+
+        var params = {
+          sendername: document.querySelector("#name").value,
+          senderemail: document.querySelector("#email").value,
+          phone: document.querySelector("#phone").value,
+          subject: document.querySelector("#subject").value,
+          message: document.querySelector("#message").value,
+        };
+
+        emailjs.send(serviceID, templateID, params).then((res) => {
+          alert(
+            "Thank you, " +
+              params["sendername"] +
+              "! Your message has been sent."
+          );
+        });
+      }
+    </script>
   </body>
 </html>
