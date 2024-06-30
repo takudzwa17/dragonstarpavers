@@ -1,3 +1,568 @@
+@media (min-width: 320px) and (max-width: 380px) {
+    .dragon-logo{
+        max-width: 210px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 15px;
+    }
+
+    /*Home page Styling*/
+    .intro-buttons, .second-buttons, .third-buttons{
+        font-size: 15px;
+    }
+
+    .third-buttons{
+        bottom: 10px;
+    }
+
+    .our-pride{
+        margin-top: 200px;
+        font-size: 17px;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .product-name-div{
+        margin-bottom: 30px;
+    }
+
+    .products hr{
+        display: block;
+    }
+
+    .review-heading{
+        font-size: 29px;
+    }
+
+    .r-item{
+        margin-top: 60px ;
+        padding: 0 !important;
+    } 
+
+    .faq-heading{
+        font-size: 29px;
+    }
+
+    .faq-paragraph{
+        font-size: 17px;
+    }
+
+    .questions, .answer{
+        font-size: 15px;
+    }
+    /*End of Home page Styling*/
+
+    /*Products page Styling*/
+    .all-our-products-heading{
+        font-size: 26px;
+    }
+
+    .pavers-heading{
+        font-size: 25px;
+    }
+
+    .name-pavers{
+        font-size: 15.5px;
+    }
+
+    .dimensions-pavers, .color-and-price{
+        font-size: 15px;
+    }
+
+    .read-more-pavers{
+        font-size: 15px;
+        padding: 8px 0;
+    }
+
+    /*End of Products page Styling*/
+
+    /* Media Page Styling */
+
+    .our-gallery-heading{
+        font-size: 34px;
+    }
+
+    .media-page-heading-div hr{
+        width: 150px;
+    }
+
+    .gallery-section{
+        padding: 0px 20px;
+    }
+
+    .gallery-category-img{
+        border-radius: 5px;
+    }
+
+    .gallery-category-img:hover{
+        transform: scale(1.1);
+    }
+
+    /*End of Media page Styling*/
+
+    
+
+    /*The Company page Styling*/
+    .why-choose-us-section{
+        padding: 15px;
+        
+    }
+
+    .our-vision-heading-about-us{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+
+    .our-vision-paragraph-about-us{
+        font-size: 15px;
+    }
+
+    .our-mission-heading{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+
+    .our-values-heading{
+        font-size: 26px !important;
+    }
+
+    .our-values-paragraph{
+        font-size: 17px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 23px !important;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .team-member-image{
+        width: 190px;
+    }
+
+    /*End of The Company page Styling*/
+
+   /* Contact Page Styling */
+    .contact-us-page{
+        max-width: 380px;
+    }
+
+    .contact-us-div{
+        max-width: 330px;
+    }
+
+    .contact-form{
+        max-width: auto;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .contact-form h1{
+        font-size: 24px;
+        margin-top: -40px;
+    }
+
+    .contact-form label{
+        font-size: 14px;
+    }
+
+    #name, #email, #phone, #subject, #message{
+        font-size: 14px;
+    }
+
+    input::placeholder{
+        font-size: 14px;
+    }
+
+    .contact-form input, textarea,
+    #message {
+        max-width: 250px;
+        padding: 7px;
+    }
+
+    .contact-form button{
+        font-size: 14px;
+    }
+
+    .contact-details{
+        width: 100% !important;
+        padding: 70px 20px !important;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .call-us{
+        font-size: 14.3px;
+        margin-bottom: 30px;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 14px;
+    }
+
+    .location-icon{
+        margin-top: 15px;
+    }
+
+    .get-connected{
+        display: none;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        margin-bottom: 15px;
+    }
+    /* End of Contact Page Styling*/
+
+   /* Footer Styling*/
+    footer p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 15px;
+    }
+   /*End of Footer Styling*/
+ }
+
+@media (min-width: 381px) and (max-width: 480px) {
+    .dragon-logo{
+        max-width: 250px;
+    }
+
+    .navbar-toggler-icon{
+        width: 18px;
+    }
+
+    .intro-buttons, .second-buttons, .third-buttons{
+        font-size: 16px;
+    }
+
+    .our-pride{
+        margin-top: 250px;
+        font-size: 17px;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .product-name-div{
+        margin-bottom: 30px;
+    }
+
+    .products hr{
+        display: block;
+    }
+
+    .review-heading{
+        font-size: 29px;
+    }
+
+    .r-item{
+        margin-top: 30px ;
+        padding: 0 !important;
+    } 
+
+    .faq-heading{
+        font-size: 29px;
+    }
+
+    .faq-paragraph{
+        font-size: 17px;
+    }
+
+    .questions, .answer{
+        font-size: 15px;
+    }
+
+    .all-our-products-heading{
+        font-size: 26px;
+    }
+
+    .pavers-heading{
+        font-size: 25px;
+    }
+
+    .name-pavers{
+        font-size: 15.5px;
+    }
+
+    .dimensions-pavers, .color-and-price{
+        font-size: 15px;
+    }
+
+    .read-more-pavers{
+        font-size: 15px;
+        padding: 8px 0;
+    }
+
+    .our-gallery-heading{
+        font-size: 34px;
+    }
+
+    .media-page-heading-div hr{
+        width: 150px;
+    }
+
+    .gallery-section{
+        padding: 0px 20px;
+    }
+
+    .gallery-category-img{
+        border-radius: 5px;
+    }
+
+    .gallery-category-img:hover{
+        transform: scale(1.1);
+    }
+
+    .why-choose-us-section{
+        padding: 15px;
+        
+    }
+
+    .our-vision-heading-about-us{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+
+    .our-vision-paragraph-about-us{
+        font-size: 15px;
+    }
+
+    .our-mission-heading{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+
+    .our-values-heading{
+        font-size: 26px !important;
+    }
+
+    .our-values-paragraph{
+        font-size: 17px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 23px !important;
+    }
+
+    .the-team-div{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .team-member-image{
+        width: 200px;
+    }
+
+    .contact-us-page{
+        max-width: 440px;
+    }
+
+    .contact-us-div{
+        max-width: 400px;
+    }
+
+    .contact-form{
+        max-width: auto;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .contact-form h1{
+        font-size: 27px;
+        margin-top: -40px;
+    }
+
+    .contact-form label{
+        font-size: 16px;
+    }
+
+    #name, #email, #phone, #subject, #message{
+        font-size: 15px;
+    }
+
+    input::placeholder{
+        font-size: 15px;
+    }
+
+    .contact-form input, textarea,
+    #message {
+        max-width: 300px;
+        padding: 8px;
+    }
+
+    .contact-form button{
+        font-size: 15px;
+    }
+
+    .contact-details{
+        max-width: 400px !important;
+        padding: 70px 40px !important;
+        justify-content: center;
+        align-items: left;
+    }
+
+    .call-us{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 14px;
+    }
+
+    .location-icon{
+        margin-top: 15px;
+    }
+
+    .get-connected{
+        display: none;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        margin-bottom: 15px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
+    footer .copyright{
+        font-size: 15px;
+    }
+
+    .footer-paragraph{
+        max-width: 420px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .all-our-products-heading{
+        font-size: 29px;
+    }
+
+    .pavers-heading{
+        font-size: 27px;
+    }
+
+    .name-pavers{
+        font-size: 17px;
+    }
+
+    .dimensions-pavers, .color-and-price{
+        font-size: 15px;
+    }
+
+    .read-more-pavers{
+        font-size: 15px;
+        padding: 8px 0;
+    }
+
+    .our-gallery-heading{
+        font-size: 34px;
+    }
+
+    .media-page-heading-div hr{
+        width: 150px;
+    }
+
+    .gallery-section{
+        padding: 0px !important;
+    }
+
+    .gallery-category-img{
+        max-width: 400px;
+        border-radius: 5px;
+    }
+
+    .gallery-category-img:hover{
+        transform: scale(1.1);
+    }
+
+    .our-vision-heading-about-us{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .our-mission-heading{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .our-values-heading{
+        font-size: 28px !important;
+        text-decoration: underline;
+    }
+
+    .our-values-paragraph{
+        font-size: 19px;
+    }
+
+    .contact-us-div{
+        max-width: 400px;
+    }
+
+    .contact-form input, textarea,
+    #message {
+        max-width: 360px;
+        padding: 8px;
+    }
+
+    .contact-details{
+        max-width: 460px !important;
+        padding: 70px 40px !important;
+        justify-content: center;
+    }
+
+    .call-us{
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 14px;
+    }
+
+    .get-connected{
+        display: none;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        margin-bottom: 15px;
+    }
+
+    .footer-paragraph{
+        max-width: 450px;
+    }
+}
+
 @media (max-width: 600px) {
     .why-choose-us-section{
         margin-top: 10px;
@@ -53,8 +618,27 @@
     .team-member-div{
         margin-bottom: 20px;
     }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .gallery-section{
+        display: flex;
+       flex-direction: column;
+       padding: 20 40px;
+    }
 }
 
+@media (min-width: 601px) and (max-width: 699px){
+    .gallery-category-img{
+        width: 260px;
+        max-width: 370px;
+        border-radius: 5px;
+    }
+}
 
 @media (min-width: 601px) and (max-width: 749px){
     .why-choose-us-section{
@@ -76,6 +660,11 @@
     .why-choose-us-section{
         display: flex;
         flex-direction: column;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     
     .review-message{
@@ -114,6 +703,20 @@
     .team-member-div{
         margin-bottom: 20px;
     }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2px !important;
+        padding: 0 30px;
+    }
+
+    
 }
 
 
@@ -170,6 +773,23 @@
 
     .team-member-div{
         margin-bottom: 20px;
+    }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-category-img{
+        max-width: 350px;
+        border-radius: 5px;
+    }
+
+    .gallery-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 40px;
+        column-gap: 10px !important;
     }
 }
 
@@ -229,6 +849,22 @@
 
     .team-member-div{
         margin-bottom: 20px;
+    }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 80px;
+    }
+
+    .gallery-category-img{
+        max-width: 350px;
+        border-radius: 5px;
     }
 }
 
@@ -296,6 +932,22 @@
     .team-member-div{
         margin-bottom: 20px;
     }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 80px;
+    }
+
+    .gallery-category-img{
+        max-width: 370px;
+        border-radius: 5px;
+    }
 }
 
 
@@ -362,6 +1014,17 @@
 
     .team-member-div{
         margin-bottom: 20px;
+    }
+
+    .contact-us-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-section{
+        display: flex;
+        column-gap: 20px;
+        padding: 0 40px;
     }
 }
 

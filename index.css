@@ -158,11 +158,14 @@ video {
     column-gap: 20px;
 }
 
+.products hr{
+    display: none;
+}
+
 .our-products-heading{
     display: flex;
     justify-content: center;
     font-size: 30px;
-    
 }
 
 .products img{
@@ -362,4 +365,71 @@ video {
     font-size: 20px;
 }
 
-/*Contact Form Styling*/
+.contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        margin-bottom: 15px;
+    }
+
+/*Media Page Styling*/
+.media-page-heading-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-gallery-heading{
+    font-weight: 600;
+    color: rgb(2, 89, 113);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.media-page-heading-div hr{
+    border: none;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(2, 89, 113);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.gallery-section{
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(2, 89, 113);
+}
+
+.gallery-section a{
+    text-decoration: none;
+    color: rgb(2, 89, 113);
+    margin-bottom: 20px;
+}
+
+
+.gallery-category-img{
+    max-width: 300px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.gallery-category-img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-category-img:hover{
+    transform: scale(1.1);
+}
+
+.gallery-category p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
