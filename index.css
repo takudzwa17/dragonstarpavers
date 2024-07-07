@@ -314,7 +314,7 @@ video {
 }
 
 .team-member-image{
-    width: 200px;
+    max-width: 200px;
 }
 
 .team-member-name{
