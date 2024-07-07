@@ -52,6 +52,7 @@ p{
 .name-pavers{
     font-weight: bold;
     color: rgb(2, 89, 113);
+    margin-top: 10px;
 }
 
 .color-and-price{
