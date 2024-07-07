@@ -34,7 +34,8 @@
 
 .full-image img{
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
+    padding: 50px;
 }
 
 .full-image span{
