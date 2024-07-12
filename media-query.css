@@ -1056,3 +1056,32 @@
         margin-left: 120px;
     }
 }
+
+@media (min-width: 1300px){
+    .container-plus-style{
+        margin-left: 140px;
+        margin-right: 40px;
+        font-size: 18px;
+    }
+
+    .pavers-section-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media (min-width: 1990px){
+    .pavers-section-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+

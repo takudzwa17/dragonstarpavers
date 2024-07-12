@@ -2,8 +2,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .nav-item{
     margin: 0 30px 0 30px;
 }
@@ -24,6 +22,11 @@ a {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.6);
+}
+
+.zim-xing{
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 
@@ -57,6 +60,17 @@ a {
 }
 
 .third-buttons{
+    padding: 12px 18px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 89, 113);
+    margin: 5px;
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+}
+
+.fourth-buttons{
     padding: 12px 18px;
     border: none;
     color: white;
