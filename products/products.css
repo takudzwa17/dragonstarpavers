@@ -63,3 +63,7 @@ p{
 .footer-headings{
     color: rgb(2, 89, 113);
 }
+
+footer p{
+    margin: 10px 0;
+}

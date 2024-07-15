@@ -4,6 +4,14 @@
         height: 600px;
      }
 
+     .footer-main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
     .dragon-logo{
         max-width: 210px;
     }
@@ -258,6 +266,14 @@
         height: 600px;
      }
 
+     .footer-main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
     .dragon-logo{
         max-width: 250px;
     }
@@ -492,6 +508,18 @@
         width: 100%;
         height: 600px;
     }
+
+    .first-heading{
+        margin-bottom: 20px;
+    }
+
+    .footer-main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
     
     .products{
         display: grid;
@@ -695,6 +723,23 @@
         height: 600px;
     }
 
+    .first-heading{
+        margin-bottom: 20px;
+    }
+
+    .footer-main-div{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-company-div p{
+        padding: 0 45px;
+    }
+
     .why-choose-us-section{
         margin-top: 10px;
         padding: 30px 50px;
@@ -791,6 +836,22 @@
         height: 600px;
     }
 
+    .get-connected-div{
+        margin-top: 30px;
+    }
+
+    .footer-company-div h6{
+        padding: 10px 0px;
+    }
+
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 20px 40px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .why-choose-us-section{
         margin-top: 10px;
         padding: 30px 80px;
@@ -884,6 +945,14 @@
         column-gap: 40px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 20px 40px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .why-choose-us-div{
         width: 100%;
     }
@@ -963,6 +1032,14 @@
         padding: 30px 50px;
         display: flex;
         column-gap: 40px;
+    }
+
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
     }
 
     .why-choose-us-div{
@@ -1054,6 +1131,14 @@
         column-gap: 40px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .why-choose-us-div{
         width: 100%;
     }
@@ -1138,6 +1223,14 @@
         column-gap: 40px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .why-choose-us-div{
         width: 100%;
     }
@@ -1161,6 +1254,14 @@
         margin-left: 120px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .media-video{
         padding: 20px;
         display: grid;
@@ -1172,7 +1273,15 @@
     iframe{
         width: 100%;
         height: 600px;
-     }
+    }
+
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
+    }
 
      .dragon-logo{
         width: 350px;
@@ -1460,6 +1569,14 @@
     iframe{
         width: 80%;
         height: 600px;
+    }
+
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 50px;
+        justify-content: start;
+        align-items: start;
     }
     
     .directions h3{
@@ -1764,6 +1881,14 @@
     iframe{
         width: 80%;
         height: 800px;
+    }
+
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 20px;
+        justify-content: start;
+        align-items: start;
     }
     
     .directions h3{
@@ -2096,6 +2221,14 @@
         height: 900px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 80px;
+        justify-content: start;
+        align-items: start;
+    }
+
     .dragon-logo{
         margin-left: 50px;
         width: 650px !important;
@@ -2251,12 +2384,15 @@
     }
 
     .faq-paragraph{
-        font-size: 41px;
+        font-size: 40px;
     }
 
-    .questions,
+    .questions{
+        font: 40px !important;
+    }
+    
     .answer{
-        font-size: 40px;
+        font-size: 33px;
     }
 
     .whole-footer{
@@ -2284,7 +2420,7 @@
     }
 
     .text-reset{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .media-video{
@@ -2472,6 +2608,13 @@
         height: 1000px;
      }
 
+     .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 80px;
+        justify-content: start;
+        align-items: start;
+    }
 
     .dragon-logo{
         margin-left: 50px;
@@ -2852,6 +2995,13 @@
         margin-bottom: 50px;
     }
 
+    .footer-main-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        margin: 20px 200px;
+        justify-content: start;
+        align-items: start;
+    }
     
     .dragon-logo{
         margin-left: 50px;

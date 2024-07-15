@@ -230,6 +230,9 @@ video {
     margin-top: 40px;
 }
 
+.faq-section{
+    margin-bottom: 60px !important;
+}
 
 .review-heading{
     margin-top: 0px;
@@ -490,6 +493,22 @@ video {
     margin-bottom: 15px;
 }
 
+.footer-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-company-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-company-div p{
+    padding: 0 15px;
+}
 
 
 
