@@ -228,12 +228,11 @@ video {
 
 .reviews-section{
     margin-top: 40px;
-    
 }
 
 
 .review-heading{
-    margin-top: 60px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,14 +251,36 @@ video {
     color: black;
 }
 
+
+
+.reviewer-message{
+    margin-bottom: 40px;
+}
+
+.reviews-main{
+    display: flex;
+    justify-content: center;
+}
+
+.review-heading{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(2, 89, 113);
+}
+
+
 .profile-photo{
     width: 150px;
     margin-bottom: 20px;
 }
 
-.review-message{
-    max-width: 550px;
-    margin-left: 210px;
+
+.reviewer-message{
+    margin-bottom: 80px;
 }
 
 .copyright{
@@ -427,7 +448,7 @@ video {
 
 
 .gallery-category-img{
-    max-width: 300px;
+    max-width: 365px;
     border-radius: 5px;
     height: auto;
 }
@@ -444,6 +465,33 @@ video {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.media-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid{
+    border: solid; 
+    max-width: 450px; 
+    height: auto
+}
+
+.google-maps-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.directions h3{
+    color: rgb(2, 89, 113);
+    margin-bottom: 15px;
+}
+
+
+
 
 
 

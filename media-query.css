@@ -1,4 +1,9 @@
 @media (min-width: 320px) and (max-width: 380px) {
+    iframe{
+        width: 100%;
+        height: 600px;
+     }
+
     .dragon-logo{
         max-width: 210px;
     }
@@ -234,9 +239,25 @@
         font-size: 15px;
     }
    /*End of Footer Styling*/
+
+   .media-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-video video{
+    max-width: 450px;
+}
  }
 
 @media (min-width: 381px) and (max-width: 480px) {
+    iframe{
+        width: 100%;
+        height: 600px;
+     }
+
     .dragon-logo{
         max-width: 250px;
     }
@@ -453,9 +474,25 @@
     .footer-paragraph{
         max-width: 420px;
     }
+
+    .media-video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .media-video video{
+        max-width: 450px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 600px) {
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
+    
     .products{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -630,6 +667,18 @@
        flex-direction: column;
        padding: 20 40px;
     }
+
+    .media-video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .media-video video{
+        min-width: 480px;
+        max-width: 550px;
+    }
 }
 
 @media (min-width: 601px) and (max-width: 699px){
@@ -641,6 +690,11 @@
 }
 
 @media (min-width: 601px) and (max-width: 749px){
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
+
     .why-choose-us-section{
         margin-top: 10px;
         padding: 30px 50px;
@@ -716,11 +770,26 @@
         padding: 0 30px;
     }
 
+    .media-video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .media-video video{
+        min-width: 580px;
+        max-width: 720px;
+    }
 }
 
 
 @media (min-width: 750px) and (max-width: 839px){
+
+    iframe{
+        width: 100%;
+        height: 600px;
+    }
 
     .why-choose-us-section{
         margin-top: 10px;
@@ -792,6 +861,17 @@
         column-gap: 10px !important;
     }
 
+    .media-video{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .media-video video{
+        min-width: 580px;
+        max-width: 720px;
+    }
 
 }
 
@@ -868,6 +948,13 @@
         max-width: 350px;
         border-radius: 5px;
     }
+
+    .media-video{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
 
 @media (min-width: 901px) and (max-width: 999px){
@@ -950,6 +1037,12 @@
         max-width: 370px;
         border-radius: 5px;
     }
+
+    .media-video{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -1028,6 +1121,12 @@
         column-gap: 20px;
         padding: 0 40px;
     }
+
+    .media-video{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -1047,6 +1146,12 @@
         max-width: 550px;
         margin-left: 100px;
     }
+
+    .media-video{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -1055,13 +1160,34 @@
         max-width: 550px;
         margin-left: 120px;
     }
+
+    .media-video{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 1300px) and (max-width: 1980px){
+    iframe{
+        width: 100%;
+        height: 600px;
+     }
+
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 36px;
+    }
+
     .container-plus-style{
-        margin-left: 140px;
+        margin-left: 300px;
         margin-right: 40px;
-        font-size: 18px;
+    }
+
+    .container-plus-style a{
+        font-size: 20px;
     }
 
     .pavers-section-one{
@@ -1072,24 +1198,79 @@
         margin-top: 20px;
     }
 
-}
-
-
-@media (min-width: 1990px) and (max-width: 2399px){
-    .pavers-section-one{
+    .media-video{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        column-gap: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .review-message{
-        margin-left: 500px;
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
     }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+     }
+
+     iframe{
+        width: 100%;
+        height: 600px;
+     }
 }
 
-@media (min-width: 1990px){
+
+@media (min-width: 1981px) and (max-width: 2399px){
+    iframe{
+        width: 80%;
+        height: 600px;
+    }
+    
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 45px;
+    }
+
+    .dragon-logo{
+        width: 370px;
+    }
+
+    .container-plus-style{
+        margin-left: 300px;
+        margin-right: 40px;
+        font-size: 18px;
+    }
+
+    .container-plus-style a{
+        font-size: 26px;
+    }
+
+    .zim-xing{
+        font-size: 30px !important;
+    }
+
+    .company-name{
+        font-size: 50px !important;
+    }
+
+    .company-motto{
+        font-size: 26px !important;
+    }
+
+    .intro-buttons,
+    .second-buttons,
+    .third-buttons{
+        font-size: 23px;
+    }
+
+    .our-pride{
+        font-size: 23px;
+        width: 900px;
+    }
+
     .why-choose-us-section{
         display: flex;
         justify-content: center;
@@ -1102,36 +1283,1712 @@
     .our-vision-div{
         width: 1000px !important;
     }
-}
 
+    .why-choose-us-heading{
+        font-size: 34px;
+    }
 
+    .why-choose-us-paragraph-home{
+        font-size: 23px;
+    }
 
+    .our-vision-heading{
+        font-size: 30px;
+    }
 
-@media (min-width: 2400px) and (max-width: 2900px){
+    .our-vision-paragraph{
+        font-size: 23px;
+    }
+
+    .our-products-heading{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
     .pavers-section-one{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         column-gap: 20px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
 
-    .review-message{
-        margin-left: 630px;
+    .product-name{
+        font-size: 24px;
     }
+
+    .reviews-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-heading{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        font-weight: bold;
+        color: rgb(2, 89, 113);
+    }
+    
+
+    .profile-photo{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .reviewer-name{
+        font-size: 30px;
+    }
+
+    .reviewer-type{
+        font-size: 23px;
+    }
+
+    .reviewer-message{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    .faq-heading{
+        font-size: 50px;
+    }
+
+    .faq-paragraph{
+        font-size: 23px;
+    }
+
+    .questions,
+    .answer{
+        font-size: 21px;
+    }
+
+    .footer-headings{
+        font-size: 22px;
+    }
+
+    footer p{
+        font-size: 21px;
+    }
+
+    .get-connected{
+        font-size: 21px;
+    }
+
+    .social-icons i{
+        font-size: 30px;
+    }
+
+    .text-reset{
+        font-size: 21px;
+    }
+
+    .all-our-products-heading{
+        font-size: 35px;
+    }
+
+    .pavers-heading{
+        font-size: 35px;
+    }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+     }
+
+    .name-pavers{
+        font-size: 27px;
+    }
+
+    .dimensions-pavers,
+    .color-and-price{
+        font-size: 23px;
+    }
+
+    .gallery-section p{
+        font-size: 23px;
+    }
+
+    .gallery-category-img{
+        max-width: 610px;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .vid{
+        border: solid; 
+        max-width: 750px; 
+        height: auto;
+    }
+
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
+    }
+
+    .media-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .why-choose-us-heading{
+        font-size: 42px;
+    }
+
+    .why-choose-us-paragraph-company{
+        font-size: 23px;
+    }
+
+    .our-vision-heading-about-us,
+    .our-mission-heading{
+        font-size: 35px;
+    }
+
+    .our-vision-paragraph-about-us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .our-values-heading{
+        font-size: 40px;
+    }
+
+    .our-values-paragraph{
+        font-size: 25px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 35px;
+    }
+
+    .team-member-name,
+    .team-member-role{
+        font-size: 22px;
+    }
+
+    .team-member-image{
+        max-width: 380px;
+        margin: 0 30px;
+    }
+
+    .contact-us{
+        font-size: 45px;
+    }
+
+    .form-group label{
+        font-size: 25px;
+    }
+
+    input, textarea{
+        width: 500px !important;
+        padding: 20px !important;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 22px !important;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    button{
+        padding: 15px 22px !important;
+        font-size: 21px !important;
+        
+    }
+
+    .contact-details{
+        max-width: 700px !important;
+    }
+
+    .call-us{
+        margin-bottom: 60px ;
+        font-size: 22px;
+    }
+
+    .location-icon{
+        font-size: 40px !important;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 21px;
+    }
+
+    .image-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    }
+
 }
 
 
-@media (min-width: 2901px) and (max-width: 3800px){
+@media (min-width: 2400px) and (max-width: 2999px){
+    iframe{
+        width: 80%;
+        height: 800px;
+    }
+    
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 55px;
+    }
+
+    .dragon-logo{
+        margin-left: 50px;
+        width: 490px !important;
+    }
+
+    .nav-link{
+        margin: 0 25px !important;
+    }
+
+    .container-plus-style{
+        margin-left: 550px;
+        margin-right: 40px;
+        font-size: 30px !important;
+    }
+
+    .zim-xing{
+        font-size: 35px !important;
+    }
+
+    .company-name{
+        font-size: 60px !important;
+    }
+
+    .company-motto{
+        font-size: 29px !important;
+    }
+
+    .intro-buttons,
+    .second-buttons,
+    .third-buttons{
+        padding: 20px 20px !important;
+        font-size: 27px;
+    }
+
+    .our-pride{
+        font-size: 30px;
+        width: 900px;
+    }
+
+    .why-choose-us-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-choose-us-div{
+        width: 1300px !important;
+    }
+
+    .our-vision-div{
+        width: 1300px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 50px;
+    }
+
+    .why-choose-us-paragraph-home{
+        font-size: 29px;
+    }
+
+    .our-vision-heading{
+        font-size: 40px;
+    }
+
+    .our-vision-paragraph{
+        font-size: 30px;
+    }
+
+    .our-products-heading{
+        font-size: 55px;
+        font-weight: bold;
+    }
+
+    .product-name{
+        font-size: 30px;
+    }
+
     .pavers-section-one{
         display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr 1fr !important;
         column-gap: 20px;
         margin-bottom: 20px;
         margin-top: 20px;
     }
 
-    .review-message{
-        margin-left: 760px;
+    .reviews-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-heading{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+        font-weight: bold;
+        color: rgb(2, 89, 113);
+    }
+
+    .profile-photo{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .reviewer-name{
+        font-size: 40px;
+    }
+
+    .reviewer-type{
+        font-size: 30px;
+    }
+
+    .reviewer-message{
+        font-size: 29px;
+        margin-bottom: 40px;
+    }
+
+    .faq-heading{
+        font-size: 63px;
+    }
+
+    .faq-paragraph{
+        font-size: 35px;
+    }
+
+    .questions,
+    .answer{
+        font-size: 30px;
+    }
+
+    .whole-footer{
+        max-width: 100%;
+    }
+
+    .footer-headings{
+        font-size: 32px;
+    }
+
+    .footer-headings{
+        max-width: 100%;
+    }
+
+    footer p{
+        font-size: 30px;
+    }
+
+    .get-connected{
+        font-size: 30px;
+    }
+
+    .social-icons i{
+        font-size: 40px;
+    }
+
+    .text-reset{
+        font-size: 30px;
+    }
+
+    .media-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .all-our-products-heading{
+        font-size: 50px;
+    }
+
+    .pavers-heading{
+        font-size: 50px !important;
+    }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+     }
+
+    .name-pavers{
+        font-size: 33px;
+    }
+
+    .dimensions-pavers,
+    .color-and-price{
+        font-size: 29px;
+    }
+
+    .our-gallery-heading{
+        font-size: 55px;
+    }
+
+    .gallery-section p{
+        font-size: 34px;
+    }
+
+    .gallery-category-img{
+        max-width: 790px;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .vid{
+        border: solid; 
+        max-width: 2000px !important; 
+        height: auto;
+    }
+
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
+    }
+
+    .image-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 60px;
+    }
+
+    .why-choose-us-paragraph-company{
+        font-size: 30px;
+    }
+
+    .our-vision-heading-about-us,
+    .our-mission-heading{
+        font-size: 45px;
+    }
+
+    .our-vision-paragraph-about-us{
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .our-values-heading{
+        font-size: 50px;
+    }
+
+    .our-values-paragraph{
+        font-size: 31px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 45px;
+    }
+
+    .team-member-name,
+    .team-member-role{
+        font-size: 30px;
+    }
+
+    .team-member-image{
+        max-width: 450px;
+        margin: 0 30px;
+    }
+
+    .contact-us{
+        font-size: 55px;
+    }
+
+    .contact-form{
+        width: 700px !important;
+    }
+
+    .form-group label{
+        font-size: 32px;
+    }
+
+    input, textarea{
+        width: 600px !important;
+        padding: 20px !important;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 29px !important;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    button{
+        padding: 15px 30px !important;
+        font-size: 28px !important;
+    }
+
+    .contact-details{
+        max-width: 800px !important;
+    }
+
+    .call-us{
+        margin-bottom: 40px ;
+        font-size: 30px;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        display: flex;
+        column-gap: 20px;
+        justify-content: left;
+        align-items: left;
+        max-width: 600px !important;
+    }
+
+    .location-icon{
+        font-size: 50px !important;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 3500px){
+    iframe{
+        width: 80%;
+        height: 900px;
+    }
+
+    .dragon-logo{
+        margin-left: 50px;
+        width: 650px !important;
+    }
+
+    .nav-link{
+        margin: 0 30px !important;
+    }
+
+    .container-plus-style a{
+        font-size: 36px;
+    }
+
+    .c-item{
+        height: 800px;
+    }
+    
+    .r-item{
+        height: 800px;
+    }
+    .container-plus-style{
+        margin-left: 650px;
+        margin-right: 40px;
+    }
+
+    .zim-xing{
+        font-size: 43px !important;
+    }
+
+    .company-name{
+        font-size: 70px !important;
+    }
+
+    .company-motto{
+        font-size: 39px !important;
+    }
+
+    .intro-buttons,
+    .second-buttons,
+    .third-buttons{
+        padding: 20px 20px !important;
+        font-size: 34px;
+    }
+
+    .intro-buttons{
+        padding: 20px 20px !important;
+        font-size: 37px;
+        top: 100px;
+        left: 1000px;
+    }
+
+    .second-buttons{
+        padding: 20px 20px !important;
+        font-size: 37px;
+        top: 500px;
+        left: 100px;
+    }
+
+    .third-buttons{
+        padding: 20px 20px !important;
+        font-size: 37px;
+        top: 0px;
+        left: 1000px;
+    }
+
+    .our-pride{
+        margin-left: 600px;
+        font-size: 40px;
+        width: 1000px;
+    }
+
+    .why-choose-us-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-choose-us-div{
+        width: 1500px !important;
+    }
+
+    .our-vision-div{
+        width: 1500px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 65px;
+    }
+
+    .why-choose-us-paragraph-home{
+        font-size: 39px;
+    }
+
+    .our-vision-heading{
+        font-size: 53px;
+    }
+
+    .our-vision-paragraph{
+        font-size: 39px;
+    }
+
+    .our-products-heading{
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    .product-name{
+        font-size: 40px;
+    }
+
+    .pavers-section-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr  1fr !important;
+        column-gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .reviews-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-heading{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        font-weight: bold;
+        color: rgb(2, 89, 113);
+    }
+
+    .profile-photo{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .reviewer-name{
+        font-size: 48px;
+    }
+
+    .reviewer-type{
+        font-size: 40px;
+    }
+
+    .reviewer-message{
+        font-size: 39px;
+        margin-bottom: 60px;
+    }
+
+    .faq-heading{
+        font-size: 75px;
+    }
+
+    .faq-paragraph{
+        font-size: 41px;
+    }
+
+    .questions,
+    .answer{
+        font-size: 40px;
+    }
+
+    .whole-footer{
+        max-width: 100%;
+    }
+
+    .footer-headings{
+        font-size: 39px;
+    }
+
+    .footer-headings{
+        max-width: 100%;
+    }
+
+    footer p{
+        font-size: 36px;
+    }
+
+    .get-connected{
+        font-size: 40px;
+    }
+
+    .social-icons i{
+        font-size: 50px;
+    }
+
+    .text-reset{
+        font-size: 40px;
+    }
+
+    .media-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .all-our-products-heading{
+        font-size: 60px;
+    }
+
+    .pavers-heading{
+        font-size: 55px !important;
+        margin-top: 40px;
+    }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+     }
+
+    .name-pavers{
+        font-size: 40px !important;
+    }
+
+    .dimensions-pavers,
+    .color-and-price{
+        font-size: 35px;
+    }
+
+    .our-gallery-heading{
+        font-size: 65px;
+    }
+
+    .gallery-section p{
+        font-size: 38px;
+    }
+
+    .gallery-category-img{
+        max-width: 1000px;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .vid{
+        border: solid; 
+        max-width: 2000px !important; 
+        height: auto;
+    }
+
+    .image-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    }
+
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 70px;
+    }
+
+    .why-choose-us-paragraph-company{
+        font-size: 38px;
+    }
+
+    .our-vision-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .our-vision-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 60px;
+        padding: 0;
+    }
+
+    .our-vision-heading-about-us,
+    .our-mission-heading{
+        font-size: 60px;
+    }
+
+    .our-vision-paragraph-about-us{
+        font-size: 36px;
+    }
+
+    .our-values-heading{
+        font-size: 60px;
+    }
+
+    .our-values-paragraph{
+        font-size: 40px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 55px;
+    }
+
+    .team-member-name,
+    .team-member-role{
+        font-size: 32px;
+    }
+
+    .team-member-image{
+        max-width: 580px;
+        margin: 0 30px;
+    }
+
+    .contact-us{
+        font-size: 65px;
+    }
+
+    .contact-form{
+        width: 700px !important;
+    }
+
+    .form-group label{
+        font-size: 36px;
+    }
+
+    input, textarea{
+        width: 600px !important;
+        padding: 20px !important;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 34px !important;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    button{
+        padding: 15px 30px !important;
+        font-size: 32px !important;
+    }
+
+    .contact-details{
+        max-width: 900px !important;
+    }
+
+    .call-us{
+        margin-bottom: 40px ;
+        font-size: 35px;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        display: flex;
+        column-gap: 20px;
+        justify-content: left;
+        align-items: left;
+        max-width: 700px !important;
+    }
+
+    .location-icon{
+        font-size: 60px !important;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 35px;
+    }
+
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 65px;
+    }
+}
+
+
+@media (min-width: 3501px) and (max-width: 4299px){
+    iframe{
+        width: 80%;
+        height: 1000px;
+     }
+
+
+    .dragon-logo{
+        margin-left: 50px;
+        width: 650px !important;
+    }
+
+    .nav-link{
+        margin: 0 30px !important;
+    }
+
+    .container-plus-style a{
+        font-size: 44px;
+    }
+
+    .c-item{
+        height: 800px;
+    }
+    
+    .r-item{
+        height: 800px;
+    }
+
+    .container-plus-style{
+        margin-left: 650px;
+        margin-right: 40px;
+    }
+
+    .zim-xing{
+        font-size: 47px !important;
+    }
+
+    .company-name{
+        font-size: 80px !important;
+    }
+
+    .company-motto{
+        font-size: 43px !important;
+    }
+
+    .intro-buttons,
+    .second-buttons,
+    .third-buttons{
+        padding: 20px 20px !important;
+        font-size: 39px;
+    }
+
+    .intro-buttons{
+        padding: 20px 20px !important;
+        top: 100px;
+        left: 1000px;
+    }
+
+    .second-buttons{
+        padding: 20px 20px !important;
+        top: 500px;
+        left: 100px;
+    }
+
+    .third-buttons{
+        padding: 20px 20px !important;
+        top: 0px;
+        left: 1000px;
+    }
+
+    .our-pride{
+        margin-left: 600px;
+        font-size: 45px;
+        width: 1500px;
+    }
+
+    .why-choose-us-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-choose-us-div{
+        width: 1500px !important;
+    }
+
+    .our-vision-div{
+        width: 1500px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 65px;
+    }
+
+    .why-choose-us-paragraph-home{
+        font-size: 39px;
+    }
+
+    .our-vision-heading{
+        font-size: 53px;
+    }
+
+    .our-vision-paragraph{
+        font-size: 39px;
+    }
+
+    .our-products-heading{
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .product-name{
+        font-size: 43px;
+    }
+
+    .pavers-section-one{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr !important;
+        column-gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .reviews-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-heading{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        font-weight: bold;
+        color: rgb(2, 89, 113);
+    }
+
+    .profile-photo{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .reviewer-name{
+        font-size: 54px !important;
+    }
+
+    .reviewer-type{
+        font-size: 45px;
+    }
+
+    .reviewer-message{
+        font-size: 43px;
+        margin-bottom: 40px;
+    }
+
+    .faq-heading{
+        font-size: 78px;
+    }
+
+    .faq-paragraph{
+        font-size: 45px;
+    }
+
+    .questions,
+    .answer{
+        font-size: 43px;
+    }
+
+    .whole-footer{
+        max-width: 100%;
+    }
+
+    .footer-headings{
+        font-size: 44px;
+    }
+
+    .footer-headings{
+        max-width: 100%;
+    }
+
+    footer p{
+        font-size: 40px;
+    }
+
+    .get-connected{
+        font-size: 40px;
+    }
+
+    .footer-headings i{
+        font-size: 50px;
+    }
+
+    .text-reset{
+        font-size: 42px;
+    }
+
+    .media-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .all-our-products-heading{
+        font-size: 60px;
+    }
+
+    .one-paver{
+        margin-bottom: 90px !important;
+    }
+
+    .pavers-heading{
+        font-size: 60px !important;
+        margin-top: 40px;
+    }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+     }
+
+    .name-pavers{
+        font-size: 52px !important;
+    }
+
+    .dimensions-pavers,
+    .color-and-price{
+        font-size: 40px;
+    }
+
+    .our-gallery-heading{
+        font-size: 70px;
+    }
+
+    .gallery-section p{
+        font-size: 38px;
+    }
+
+    .gallery-category-img{
+        max-width: 1000px;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .vid{
+        border: solid; 
+        max-width: 2000px !important; 
+        height: auto;
+    }
+
+    .image-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    }
+
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 80px;
+    }
+
+    .why-choose-us-paragraph-company{
+        font-size: 41px;
+        margin-right: 140px;
+    }
+
+    .our-vision-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .our-vision-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 60px;
+        padding: 0;
+    }
+
+    .our-vision-heading-about-us,
+    .our-mission-heading{
+        font-size: 69px;
+    }
+
+    .our-vision-paragraph-about-us{
+        font-size: 39px;
+    }
+
+    .our-values-heading{
+        font-size: 68px;
+    }
+
+    .our-values-paragraph{
+        font-size: 45px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 55px;
+    }
+
+    .team-member-name,
+    .team-member-role{
+        font-size: 43px !important;
+    }
+
+    .team-member-image{
+        max-width: 650px;
+        margin: 0 30px;
+    }
+
+    .contact-us{
+        font-size: 75px;
+    }
+
+    .contact-form{
+        width: 900px !important;
+    }
+
+    .form-group label{
+        font-size: 43px;
+    }
+
+    input, textarea{
+        width: 800px !important;
+        padding: 20px 40px !important;
+        border: 1px solid #6b6b6b;
+        border-radius: 5px;
+        font-size: 38px !important;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    button{
+        padding: 15px 30px !important;
+        font-size: 40px !important;
+    }
+
+    .contact-details{
+        max-width: 1200px !important;
+    }
+
+    .call-us{
+        margin-bottom: 60px ;
+        font-size: 42px;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        display: flex;
+        column-gap: 20px;
+        justify-content: left;
+        align-items: left;
+        max-width: 900px !important;
+    }
+
+    .location-icon{
+        font-size: 60px !important;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 40px;
+    }
+
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 75px;
+    }
+}
+
+@media (min-width: 4300px) {
+    iframe{
+        width: 90%;
+        height: 1400px;
+        margin-bottom: 50px;
+    }
+
+    
+    .dragon-logo{
+        margin-left: 50px;
+        width: 850px !important;
+    }
+
+    .nav-link{
+        margin: 0 30px !important;
+    }
+
+    .container-plus-style a{
+        font-size: 57px;
+    }
+
+    .c-item{
+        height: 1000px;
+    }
+    
+    .r-item{
+        height: 1000px;
+    }
+
+    .container-plus-style{
+        margin-left: 650px;
+        margin-right: 40px;
+    }
+
+    .zim-xing{
+        font-size: 55px !important;
+    }
+
+    .company-name{
+        font-size: 92px !important;
+    }
+
+    .company-motto{
+        font-size: 49px !important;
+    }
+
+    .intro-buttons,
+    .second-buttons,
+    .third-buttons{
+        padding: 20px 80px !important;
+        font-size: 49px;
+    }
+
+    .intro-buttons{
+        top: 100px;
+        left: 1000px;
+    }
+
+    .second-buttons{
+        top: 500px;
+        left: 100px;
+    }
+
+    .third-buttons{
+        top: 0px;
+        left: 1150px;
+    }
+
+    .our-pride{
+        margin-left: 600px;
+        font-size: 55px;
+        width: 1500px;
+    }
+
+    .why-choose-us-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .why-choose-us-div{
+        width: 1800px !important;
+    }
+
+    .our-vision-div{
+        width: 1800px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 90px;
+    }
+
+    .why-choose-us-paragraph-home{
+        font-size: 49px;
+    }
+
+    .our-vision-heading{
+        font-size: 78px !important;
+    }
+
+    .our-vision-paragraph{
+        font-size: 50px;
+    }
+
+    .our-products-heading{
+        font-size: 90px;
+        font-weight: bold;
+    }
+
+    .product-name{
+        font-size: 50px;
+    }
+
+    .products-images{
+        width: 100%;
+        height: auto !important;
+     }
+
+     .pavers-section-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        column-gap: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .one-paver{
+        margin-bottom: 90px !important;
+    }
+
+    .reviews-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .review-heading{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 85px;
+        font-weight: bold;
+        color: rgb(2, 89, 113);
+    }
+
+    .profile-photo{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .reviewer-name{
+        font-size: 65px !important;
+    }
+
+    .reviewer-type{
+        font-size: 53px;
+    }
+
+    .reviewer-message{
+        font-size: 53px;
+        margin-bottom: 150px;
+    }
+
+    .faq-heading{
+        font-size: 95px;
+    }
+
+    .faq-paragraph{
+        font-size: 55px;
+    }
+
+    .questions,
+    .answer{
+        font-size: 53px;
+    }
+
+    .whole-footer{
+        max-width: 100%;
+    }
+
+    .footer-headings{
+        font-size: 44px;
+    }
+
+    .footer-headings{
+        max-width: 100%;
+    }
+
+    footer p{
+        font-size: 40px;
+    }
+
+    .get-connected{
+        font-size: 40px;
+    }
+
+    .footer-headings i{
+        font-size: 50px;
+    }
+
+    .text-reset{
+        font-size: 42px;
+    }
+
+    .media-video{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .all-our-products-heading{
+        font-size: 70px;
+    }
+
+    .pavers-heading{
+        font-size: 70px !important;
+        margin-top: 40px;
+    }
+
+    .name-pavers{
+        font-size: 60px !important;
+    }
+
+    .dimensions-pavers,
+    .color-and-price{
+        font-size: 50px;
+    }
+
+    .products-images{
+        width: 100%;
+        max-height: none !important;
+    }
+
+    .our-gallery-heading{
+        font-size: 90px;
+    }
+
+    .gallery-section p{
+        font-size: 53px;
+    }
+
+    .gallery-category-img{
+        max-width: 2000px;
+        border-radius: 5px;
+        height: auto;
+    }
+
+    .vid{
+        border: solid; 
+        max-width: 2000px !important; 
+        height: auto;
+    }
+
+    .image-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    }
+
+    .full-image img{
+        width: 100%;
+        max-width: 80% !important;
+        padding: 100px 20px !important;
+    }
+
+    .why-choose-us-heading{
+        font-size: 85px;
+    }
+
+    .why-choose-us-paragraph-company{
+        font-size: 50px;
+        margin-right: 140px;
+    }
+
+    .our-vision-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .our-vision-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 60px;
+        padding: 0;
+    }
+
+    .our-vision-heading-about-us,
+    .our-mission-heading{
+        font-size: 92px;
+    }
+
+    .our-vision-paragraph-about-us{
+        font-size: 50px;
+    }
+
+    .our-values-heading{
+        font-size: 85px;
+    }
+
+    .our-values-paragraph{
+        font-size: 55px;
+    }
+
+    .meet-the-team-heading{
+        font-size: 82px;
+    }
+
+    .team-member-name,
+    .team-member-role{
+        font-size: 55px !important;
+    }
+
+    .team-member-image{
+        max-width: 800px;
+        margin: 0 30px;
+    }
+
+    .contact-us{
+        font-size: 110px;
+    }
+
+    .contact-form{
+        width: 900px !important;
+    }
+
+    .form-group label{
+        font-size: 50px;
+    }
+
+    input, textarea{
+        width: 900px !important;
+        padding: 20px 40px !important;
+        border: 1px solid #6b6b6b;
+        border-radius: 5px;
+        font-size: 47px !important;
+        box-sizing: border-box;
+        resize: vertical;
+    }
+
+    button{
+        padding: 25px 80px !important;
+        font-size:50px !important;
+    }
+
+    .contact-details{
+        max-width: 1500px !important;
+    }
+
+    .call-us{
+        margin-bottom: 90px ;
+        font-size: 55px;
+    }
+
+    .contact-details-address,
+    .contact-details-email,
+    .contact-details-phone,
+    .contact-details-working-hours{
+        display: flex;
+        column-gap: 20px;
+        justify-content: left;
+        align-items: left;
+        max-width: 900px !important;
+    }
+
+    .location-icon{
+        font-size: 80px !important;
+    }
+
+    .contact-details-address-right-side p{
+        font-size: 50px;
+        margin-left: 80px;
+    }
+
+    .directions h3{
+        color: rgb(2, 89, 113);
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 80px;
     }
 }
