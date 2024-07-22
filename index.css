@@ -1,13 +1,16 @@
 a {
     text-decoration: none;
 }
+.header{
+    background-color: rgb(237, 235, 235);
+}
 
 .nav-item{
     margin: 0 30px 0 30px;
 }
 
 .nav-link{
-    color: rgb(2, 89, 113);
+    color: rgb(4, 122, 155);
 }
 
 .c-item{
@@ -28,7 +31,6 @@ a {
     margin-top: 50px;
     margin-bottom: 0;
 }
-
 
 
 .intro-buttons-div{
@@ -493,6 +495,21 @@ video {
     margin-bottom: 15px;
 }
 
+footer{
+    background-color: rgb(2, 89, 113);
+    color: white;
+}
+
+.socials-logo{
+    width: 35px;
+}
+
+.get-connected-div{
+    background-color: white;
+    padding: 20px;
+    color: rgb(2, 89, 113);
+}
+
 .footer-main-div{
     display: flex;
     justify-content: center;
@@ -510,6 +527,11 @@ video {
     padding: 0 15px;
 }
 
+.footer-headings{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 
 
 
